@@ -1,0 +1,29 @@
+4 a b # /
+6 s1 s2 s3 s4 s5 s6
+s1 a s6
+s1 b s6
+s1 # s6
+s1 / s2
+s2 a s6
+s2 b s6
+s2 / s6
+s2 # s3
+s3 a s3
+s3 b s3
+s3 / s3
+s3 # s4
+s4 a s3
+s4 b s3
+s4 # s4
+s4 / s5
+s5 a s6
+s5 b s6
+s5 / s6
+s5 # s6
+s6 a s6
+s6 b s6
+s6 / s6
+s6 # s6
+s1
+1 s5
+/#aa##ababa#/
