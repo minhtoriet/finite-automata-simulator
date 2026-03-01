@@ -1,18 +1,13 @@
-## Getting Started
+# Finite automata
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+I was assigned to make a program that accepts arbitrary FA (not forever alone, although I am) and takes input to determine whether a given string is accepted by the machine (i.e whether the string belongs to the language in which the machine recognizes).
 
-## Folder Structure
+## Deterministic Finite Automata
 
-The workspace contains two folders by default, where:
+Just look at the code, duh. There are testcases in one of 'em files.
+Consult the definition [here](https://en.wikipedia.org/wiki/Deterministic_finite_automaton)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Nondeterministic Finite Automata
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+It is currently dead wrong (accepting strings it shouldn't accept). I have no idea why i should make it despite the fact that it doesn't make sense in terms of hardware, but mathmatically. Will look into the issues later.
+Consult [here](https://en.wikipedia.org/wiki/Nondeterministic_finite_automaton) for more details
